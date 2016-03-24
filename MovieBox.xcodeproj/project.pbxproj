@@ -11,6 +11,8 @@
 		0AF3A2331CA3A2D4004D3433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3A2321CA3A2D4004D3433 /* ViewController.swift */; };
 		0AF3A2361CA3A2D4004D3433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3A2341CA3A2D4004D3433 /* Main.storyboard */; };
 		0AF3A2381CA3A2D4004D3433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF3A2371CA3A2D4004D3433 /* Assets.xcassets */; };
+		0AF3A2421CA3A575004D3433 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3A2411CA3A575004D3433 /* HttpService.swift */; };
+		0AF3A2441CA3A5B1004D3433 /* DisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3A2431CA3A5B1004D3433 /* DisplayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0AF3A2351CA3A2D4004D3433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AF3A2371CA3A2D4004D3433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF3A2391CA3A2D4004D3433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF3A2411CA3A575004D3433 /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		0AF3A2431CA3A5B1004D3433 /* DisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		0AF3A22F1CA3A2D4004D3433 /* MovieBox */ = {
 			isa = PBXGroup;
 			children = (
+				0AF3A2401CA3A554004D3433 /* View */,
+				0AF3A23F1CA3A542004D3433 /* Services */,
 				0AF3A2301CA3A2D4004D3433 /* AppDelegate.swift */,
 				0AF3A2321CA3A2D4004D3433 /* ViewController.swift */,
 				0AF3A2341CA3A2D4004D3433 /* Main.storyboard */,
@@ -59,6 +65,22 @@
 				0AF3A2391CA3A2D4004D3433 /* Info.plist */,
 			);
 			path = MovieBox;
+			sourceTree = "<group>";
+		};
+		0AF3A23F1CA3A542004D3433 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3A2411CA3A575004D3433 /* HttpService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		0AF3A2401CA3A554004D3433 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3A2431CA3A5B1004D3433 /* DisplayCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +155,8 @@
 			files = (
 				0AF3A2331CA3A2D4004D3433 /* ViewController.swift in Sources */,
 				0AF3A2311CA3A2D4004D3433 /* AppDelegate.swift in Sources */,
+				0AF3A2441CA3A5B1004D3433 /* DisplayCell.swift in Sources */,
+				0AF3A2421CA3A575004D3433 /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
