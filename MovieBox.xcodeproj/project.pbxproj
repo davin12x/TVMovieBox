@@ -56,10 +56,10 @@
 		0AF3A22F1CA3A2D4004D3433 /* MovieBox */ = {
 			isa = PBXGroup;
 			children = (
+				0AF3A2451CA3A96C004D3433 /* Controller */,
 				0AF3A2401CA3A554004D3433 /* View */,
 				0AF3A23F1CA3A542004D3433 /* Services */,
 				0AF3A2301CA3A2D4004D3433 /* AppDelegate.swift */,
-				0AF3A2321CA3A2D4004D3433 /* ViewController.swift */,
 				0AF3A2341CA3A2D4004D3433 /* Main.storyboard */,
 				0AF3A2371CA3A2D4004D3433 /* Assets.xcassets */,
 				0AF3A2391CA3A2D4004D3433 /* Info.plist */,
@@ -81,6 +81,14 @@
 				0AF3A2431CA3A5B1004D3433 /* DisplayCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		0AF3A2451CA3A96C004D3433 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3A2321CA3A2D4004D3433 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

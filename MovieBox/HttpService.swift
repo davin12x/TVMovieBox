@@ -8,5 +8,16 @@
 
 import Foundation
 class HttpService {
-
+    
+    let urls = NSURL(string: "http://pokeapi.co/api/v2/")!
+    let sessions = NSURLSession.sharedSession()
+    
+    func Download()  {
+        sessions.dataTaskWithURL(urls) { (data, response, error) in
+          print(data)
+            print(error)
+        }.resume()
+        
+        
+    }
 }

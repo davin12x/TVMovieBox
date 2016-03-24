@@ -10,4 +10,10 @@ import UIKit
 
 class DisplayCell: UICollectionViewCell {
     
+    @IBOutlet weak var image:UIImage?
+    @IBOutlet weak var label :UILabel?
+    
+    func updateCell(){
+    
+    }
 }
